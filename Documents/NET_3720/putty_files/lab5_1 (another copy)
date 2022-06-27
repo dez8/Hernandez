@@ -1,0 +1,323 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2021.10.23 14:12:37 =~=~=~=~=~=~=~=~=~=~=~=
+
+IOS Bootloader - Starting system.
+flash is writable
+Tide XL MB - 40MB of flash
+Xmodem file system is available.
+flashfs[0]: 247 files, 7 directories
+flashfs[0]: 0 orphaned files, 0 orphaned directories
+flashfs[0]: Total bytes: 41158656
+flashfs[0]: Bytes used: 14529536
+flashfs[0]: Bytes available: 26629120
+flashfs[0]: flashfs fsck took 10 seconds.
+Base Ethernet MAC address: d8:b1:90:38:86:a0
+Ethernet speed is 1000 Mb - FULL Duplex
+Loading "flash:/ap3g2-k9w7-mx.153-3.JPK2/ap3g2-k9w7-mx.153-3.JPK2"...#########################
+
+File "flash:/ap3g2-k9w7-mx.153-3.JPK2/ap3g2-k9w7-mx.153-3.JPK2" uncompressed and installed, entry point: 0x2003000
+executing...
+
+Secondary Bootloader - Starting system.
+Montserrat Board
+40MB format
+Tide XL MB - 40MB of flash
+Xmodem file system is available.
+flashfs[0]: 247 files, 7 directories
+flashfs[0]: 0 orphaned files, 0 orphaned directories
+flashfs[0]: Total bytes: 41158656
+flashfs[0]: Bytes used: 14529536
+flashfs[0]: Bytes available: 26629120
+flashfs[0]: flashfs fsck took 10 seconds.
+flashfs[1]: 0 files, 1 directories
+flashfs[1]: 0 orphaned files, 0 orphaned directories
+flashfs[1]: Total bytes: 12257280
+flashfs[1]: Bytes used: 1024
+flashfs[1]: Bytes available: 12256256
+flashfs[1]: flashfs fsck took 1 seconds.
+Base Ethernet MAC address: d8:b1:90:38:86:a0
+Unable to locate IOS image with name **xx**.
+Boot CMD: 'boot  flash:/ap3g2-k9w7-mx.153-3.JPK2/ap3g2-k9w7-xx.153-3.JPK2'
+Loading "flash:/ap3g2-k9w7-mx.153-3.JPK2/ap3g2-k9w7-xx.153-3.JPK2"...###########################################
+File "flash:/ap3g2-k9w7-mx.153-3.JPK2/ap3g2-k9w7-xx.153-3.JPK2" uncompressed and installed, entry point: 0x1003000
+executing...
+
+              Restricted Rights Legend
+
+Use, duplication, or disclosure by the Government is
+subject to restrictions as set forth in subparagraph
+(c) of the Commercial Computer Software - Restricted
+Rights clause at FAR sec. 52.227-19 and subparagraph
+(c) (1) (ii) of the Rights in Technical Data and Computer
+Software clause at DFARS sec. 252.227-7013.
+
+           cisco Systems, Inc.
+           170 West Tasman Drive
+           San Jose, California 95134-1706
+
+
+
+Cisco IOS Software, C3700 Software (AP3G2-K9W7-M), Version 15.3(3)JPK2, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2021 by Cisco Systems, Inc.
+Compiled Fri 30-Jul-21 01:38 by mcpre
+
+Montserrat Board
+40MB format
+Tide XL MB - 40MB of flash
+Initializing flashfs...
+
+flashfs[2]: 247 files, 7 directories
+flashfs[2]: 0 orphaned files, 0 orphaned directories
+flashfs[2]: Total bytes: 40900608
+flashfs[2]: Bytes used: 14529536
+flashfs[2]: Bytes available: 26371072
+flashfs[2]: flashfs fsck took 12 seconds.
+flashfs[2]: Initialization complete.
+flashfs[4]: 0 files, 1 directories
+flashfs[4]: 0 orphaned files, 0 orphaned directories
+flashfs[4]: Total bytes: 11999232
+flashfs[4]: Bytes used: 1024
+flashfs[4]: Bytes available: 11998208
+flashfs[4]: flashfs fsck took 0 seconds.
+flashfs[4]: Initialization complete.
+Copying radio files from flash: to ram:
+Copy in progress...CCCCC
+Copy in progress...CCC
+Copy in progress...CCCC
+Copy in progress...CCCC
+Copy in progress...CC
+Copy in progress...CC
+Copy in progress...CCCC
+Copy in progress...CC
+Copy in progress...CCCCCCCC
+Copy in progress...CCCC
+Copy in progress...CC
+Copy in progress...C
+Uncompressing radio files...
+...done Initializing flashfs.
+
+Radio0  present 8764 8000 0 A8000000 A8010000 0
+Rate table has 650 entries (20 legacy/224 11n/406 11ac)
+
+POWER TABLE FILENAME = ram:/Q2.bin
+
+Radio1  present 8864 8000 0 80000000 80100000 4
+POWER TABLE FILENAME = ram:/Q5.bin
+
+Radio2 not present 0 0 0 0 0 8
+This product contains cryptographic features and is subject to United
+States and local country laws governing import, export, transfer and
+use. Delivery of Cisco cryptographic products does not imply
+third-party authority to import, export, distribute or use encryption.
+Importers, exporters, distributors and users are responsible for
+compliance with U.S. and local country laws. By using this product you
+agree to comply with applicable laws and regulations. If you are unable
+to comply with U.S. and local laws, return this product immediately.
+
+A summary of U.S. laws governing Cisco cryptographic products may be found at:
+http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+If you require further assistance please contact us by sending email to
+export@cisco.com.
+
+cisco AIR-SAP3702I-B-K9 (PowerPC) processor (revision A0) with 376814K/134656K bytes of memory.
+Processor board ID FCW1921NX6D
+PowerPC CPU at 800Mhz, revision number 0x2151
+Last reset from power-on
+1 Gigabit Ethernet interface
+2 802.11 Radios
+
+32K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address: D8:B1:90:38:86:A0
+Part Number                          : 73-15243-01
+PCB Serial Number                    : FOC191983ST
+Top Assembly Part Number             : 068-100374-02
+Top Assembly Serial Number           : FCW1921NX6D
+Top Revision Number                  : A0
+Product/Model Number                 : AIR-CAP3702I-B-K9   
+
+Disabling 802.11n aggregation in WGB/Repeater/NRB mode
+
+ System is configured with default enable secret.Please change it before enabling HTTP Server
+
+
+
+Press RETURN to get started!
+
+
+*Mar  1 00:00:17.099: %SOAP_FIPS-2-SELF_TEST_IOS_SUCCESS: IOS crypto FIPS self test passed (15)
+*Mar  1 00:00:23.247: %SOAP_FIPS-2-SELF_TEST_RAD_SUCCESS: RADIO crypto FIPS self test passed on interface Dot11Radio 0 (4)
+*Mar  1 00:00:23.359: loading Power Tables from ram:/Q2.bin. Class = A
+*Mar  1 00:00:23.363:  record size of 3ss: 1168 read_ptr: 47BD326
+
+*Mar  1 00:00:28.559: %SOAP_FIPS-2-SELF_TEST_RAD_SUCCESS: RADIO crypto FIPS self test passed on interface Dot11Radio 1 (4)
+*Mar  1 00:00:28.607: loading Power Tables from ram:/Q5.bin. Class = B
+*Mar  1 00:00:28.643:  record size of vht: 2904 read_ptr: 47BD326
+
+*Mar  1 00:00:28.779: SCHED: Ethernet Bridge Process: install watched boolean System Initialized(47A556C), os:1 ah:0
+*Mar  1 00:00:30.875: %LINK-6-UPDOWN: Interface GigabitEthernet0, changed state to up
+*Mar  1 00:00:31.267: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio0 due to the reason code 39
+*Mar  1 00:00:31.267: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 39
+*Mar  1 00:00:31.383: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio0 due to the reason code 27
+*Mar  1 00:00:31.387: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio0 due to the reason code 10
+*Mar  1 00:00:31.395: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 10
+*Mar  1 00:00:31.395: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 40
+*Mar  1 00:00:31.395: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 26
+*Mar  1 00:00:31.395: %DOT11-5-EXPECTED_RADIO_RESET: Restarting Radio interface Dot11Radio1 due to the reason code 40
+*Mar  1 00:00:31.599: %SYS-5-CONFIG_I: Configured from memory by console
+*Mar  1 00:00:31.715: Starting Ethernet promiscuous mode
+*Mar  1 00:00:31.715: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, C3700 Software (AP3G2-K9W7-M), Version 15.3(3)JPK2, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2021 by Cisco Systems, Inc.
+Compiled Fri 30-Jul-21 01:38 by mcpre
+*Mar  1 00:00:31.715: %SNMP-5-COLDSTART: SNMP agent on host Net3720-ap2 is undergoing a cold start
+*Mar  1 00:01:33.027: SCHED: Ethernet Bridge Process: remove watched boolean System Initialized(47A556C)
+*Mar  1 00:01:33.027: SCHED: Ethernet Bridge Process: install watched queue Soap BVI input queue(4797C74), os:0 ah:0
+*Mar  1 00:01:33.027: %CDP_PD-4-POWER_OK: Full power - HIGH_POWER inline power source
+*Mar  1 00:01:33.031: %LINK-5-CHANGED: Interface Dot11Radio1, changed state to reset
+*Mar  1 00:01:33.139: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0, changed state to down
+*Mar  1 00:01:33.727: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio0, changed state to down
+*Mar  1 00:01:33.731: %LINEPROTO-5-UPDOWN: Line protocol on Interface BVI1, changed state to up
+*Mar  1 00:01:34.031: %LINEPROTO-5-UPDOWN: Line protocol on Interface Dot11Radio1, changed state to down
+*Mar  1 00:01:37.627: %SOAP_FIPS-2-SELF_TEST_HW_SUCCESS: HW crypto FIPS self test passed (0-0)
+*Mar  1 00:01:37.627: DPAA Initialization Complete
+*Mar  1 00:01:37.627: %SYS-3-HARIKARI: Process DPAA INIT top-level routine exited
+*Mar  1 00:01:38.627: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0, changed state to up
+*Mar  1 00:01:47.255: %DOT11-4-CANT_ASSOC: Interface Dot11Radio1, cannot associate: No Response
+Net3720-ap2>
+Net3720-ap2>
+Net3720-ap2>
+Net3720-ap2>shwo ru     pw  ow run
+                  ^
+% Invalid input detected at '^' marker.
+
+Net3720-ap2>en
+Password: 
+Net3720-ap2#show rn un
+Building configuration...
+
+Current configuration : 1559 bytes
+!
+version 15.3
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname Net3720-ap2
+!
+!
+logging rate-limit console 9
+enable secret 5 $1$5L/l$4Q3p2mhtCoU036xiQqjEE.
+!
+no aaa new-model
+no ip source-route
+no ip cef
+!
+!
+!
+!
+dot11 pause-time 100
+ --More--         
+Net3720-ap2# show run        show run
+Building configuration...
+
+Current configuration : 1559 bytes
+!
+version 15.3
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname Net3720-ap2
+!
+!
+logging rate-limit console 9
+enable secret 5 $1$5L/l$4Q3p2mhtCoU036xiQqjEE.
+!
+no aaa new-model
+no ip source-route
+no ip cef
+!
+!
+!
+!
+dot11 pause-time 100
+ --More--         dot11 syslog
+!
+dot11 ssid net3720-Hernandez-bridge
+   authentication open 
+   authentication key-management wpa version 2
+   wpa-psk ascii 7 065E5F701E1B504B574444
+!
+!
+!
+no ipv6 cef
+!
+!
+username Cisco password 7 123A0C041104
+!
+!
+bridge irb
+!
+!
+!
+interface Dot11Radio0
+ no ip address
+ shutdown
+ antenna gain 0
+ --More--          station-role root
+ bridge-group 1
+ bridge-group 1 subscriber-loop-control
+ bridge-group 1 spanning-disabled
+ bridge-group 1 block-unknown-source
+ no bridge-group 1 source-learning
+ no bridge-group 1 unicast-flooding
+!
+interface Dot11Radio1
+ no ip address
+ !
+ encryption mode ciphers aes-ccm 
+ !
+ ssid net3720-Hernandez-bridge
+ !
+ antenna gain 0
+ peakdetect
+ station-role non-root bridge
+ bridge-group 1
+ bridge-group 1 spanning-disabled
+!
+interface GigabitEthernet0
+ no ip address
+ --More--          duplex auto
+ speed auto
+ bridge-group 1
+ bridge-group 1 spanning-disabled
+!
+interface BVI1
+ mac-address d8b1.9038.86a0
+ ip address 10.1.1.2 255.255.255.0
+ ipv6 address dhcp
+ ipv6 address autoconfig
+ ipv6 enable
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+ip http help-path http://www.cisco.com/warp/public/779/smbiz/prodconfig/help/eag
+!
+!
+bridge 1 route ip
+!
+!
+!
+line con 0
+ --More--         line vty 0 4
+ login local
+ transport input all
+!
+end
+
+Net3720-ap2#

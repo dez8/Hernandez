@@ -1,0 +1,141 @@
+create file in linux command line 
+
+1.create an empty file using touch command 
+-this will create a file 
+
+touch filename 
+
+2.create files using cat command 
+- this will make the file into a txt file 
+cat >>filename.txt 
+
+3. create new file using echo command 
+-- this command is for an empty file that you are creating. NOTE this will 
+print what you are putting in the file 
+echo "this is the 1st words on a file" > filename.txt
+
+4. create a file without words 
+echo > file.txt 
+
+
+--Read and edit a file using nano 
+
+
+https://www.wikihow.com/Create-and-Edit-Text-File-in-Linux-by-Using-Terminal
+
+this will read and edit the file 
+
+nano filename.txt 
+
+see all Nano commands Ctrl + G 
+
+
+
+----Commands 
+
+rm - this removes files that have contents in them 
+
+rmdir -removes files that have nothing in them 
+
+touch - this makes a new file 
+
+locate -i school*note --this will find any file that contains the word 
+'school' and 'note' not case senstive 
+
+
+find .-name notes.txt --To find files in the currect directory 
+
+grep blue notepad.txt - will search for the word blue in the notpad file
+and will display fully 
+
+
+
+-------harden a linux computer ---- 
+
+1. sudo apt update 
+
+2. sudo apt dist-upgrade 
+
+3. to update automatic -- 
+	sudo apt install unattended-upgrades 
+
+	press y 
+
+4. sudo dpkg-recongigure --priority=low unattended-upgrades 
+
+	press yes 
+
+
+---assign a another user --- 
+sudo adduser [user-name] 
+
+press enter 
+
+enter a password 
+
+
+---add uswer to sudo group--- 
+
+sudo usermod -aG sudo [user-name] 
+
+
+----private public key access---- 
+
+making a directory to store our public keys 
+
+mkdir ~/.ssh && chmond 700 ~/.ssh  
+
+
+then type logout 
+
+
+----create public/ private keys ---- 
+***jump to this step if there is an error for mkdir in ssh 
+
+cd .ssh 
+
+then follow the command below 
+
+ssh-keygen -b 4096 
+
+
+**when it asks for a passcode press enter *** 
+
+--to see what in the folder --- 
+
+cd .ssh 
+ls 
+
+--to activate the public key --
+
+ssh-copy-id [user-name] 
+
+
+---lock down our logins ---
+
+
+ssh-copy-id --@1p-address- server ip 
+
+
+sudo nano /etc/ssh/sshd_config 
+ 
+
+in this text editer 
+
+change ssh port from 22 to Port [a num] 
+
+PermitRootLogin no 
+
+AddressFamily inet 
+
+PasswordAuthentication no 
+
+
+after this restart sshd 
+
+sudo systemctl restart sshd 
+
+
+server Ip address hostname -I 
+
+

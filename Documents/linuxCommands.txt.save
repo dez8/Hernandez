@@ -1,0 +1,76 @@
+create file in linux command line 
+
+1.create an empty file using touch command 
+-this will create a file 
+
+touch filename 
+
+2.create files using cat command 
+- this will make the file into a txt file 
+cat >>filename.txt 
+
+3. create new file using echo command 
+-- this command is for an empty file that you are creating. NOTE this will 
+print what you are putting in the file 
+echo "this is the 1st words on a file" > filename.txt
+
+4. create a file without words 
+echo > file.txt 
+
+
+--Read and edit a file using nano 
+
+
+https://www.wikihow.com/Create-and-Edit-Text-File-in-Linux-by-Using-Terminal
+
+this will read and edit the file 
+
+nano filename.txt 
+
+see all Nano commands Ctrl + G 
+
+
+
+----Commands 
+
+rm - this removes files that have contents in them 
+
+rmdir -removes files that have nothing in them 
+
+touch - this makes a new file 
+
+locate -i school*note --this will find any file that contains the word 
+'school' and 'note' not case senstive 
+
+
+find .-name notes.txt --To find files in the currect directory 
+
+grep blue notepad.txt - will search for the word blue in the notpad file
+and will display fully 
+
+
+
+
+-------harden a linux server -------
+ 1. sudo apt update 
+
+2. sudo apt dist-upgrade 
+	y 
+
+3. sudo apt install unattended-upgrades 
+
+4. sudo dpkg-reconfigure --priority=low unattended-upgrade 
+	YES 
+
+
+
+---- to add a user--- 
+log in as root@ 
+
+sudo or root adduser [name of the user] 
+
+then add a password 
+
+
+
+

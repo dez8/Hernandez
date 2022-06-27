@@ -1,0 +1,7 @@
+
+    URG - Bypass the queue.
+    ACK - Acknowledges received data
+    PSH - Asks to push the buffered data to the receiving application
+    RST - Aborts a connection in response to an error
+    SYN - Initiates a connection
+    FIN - Closes a connection
